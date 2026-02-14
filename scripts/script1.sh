@@ -15,7 +15,6 @@ echo " - Ideal para cartões SD lentos"
 echo ""
 echo "Possíveis riscos:"
 echo " - Menor proteção contra corrupção se houver queda de energia"
-echo " - Não recomendado para ambientes críticos sem UPS"
 echo ""
 read -p "Deseja usar eatmydata? (s/N): " USE_EATMYDATA
 
