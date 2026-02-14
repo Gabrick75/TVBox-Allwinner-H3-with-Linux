@@ -52,12 +52,21 @@ Mínimo recomendado: **12MB/s**
 
 
 ## Galeria de Imagens
-  ------------------------ ------------------------
-  ![](images/image1.webp)   ![](images/image2.webp)
-  ![](images/image3.webp)   ![](images/image4.webp)
-  ------------------------ ------------------------
+<table>
+  <tr>
+    <td><img src="images/image1.webp" alt="Screenshot 1"></td>
+    <td><img src="images/image2.webp" alt="Screenshot 2"></td>
+  </tr>
+  <tr>
+    <td><img src="images/image3.webp" alt="Screenshot 3"></td>
+    <td><img src="images/image4.webp" alt="Screenshot 4"></td>
+  </tr>
+  <tr>
+    <td><img src="images/image5.webp" alt="Screenshot 5"></td>
+    <td><img src="images/image6.webp" alt="Screenshot 6"></td>
+  </tr>
+</table>
 
-------------------------------------------------------------------------
 
 ## Estrutura
 
