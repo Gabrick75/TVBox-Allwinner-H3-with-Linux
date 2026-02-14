@@ -5,6 +5,7 @@ set -e
 echo "============================================="
 echo "ATUALIZAÇÃO DEBIAN 11 (Bullseye) -> DEBIAN 12 (Bookworm)"
 echo "============================================="
+echo "by gabrick75"
 echo ""
 echo "Você deseja utilizar o eatmydata para acelerar a atualização?"
 echo ""

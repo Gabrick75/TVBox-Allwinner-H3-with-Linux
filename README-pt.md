@@ -1,52 +1,45 @@
-# TV Box with Linux (Allwinner H3)
+# TV Box com Linux (Allwinner H3)
 
-🇧🇷 Leia em Português: [README-pt.md](README-pt.md)
-
-------------------------------------------------------------------------
-
-## About This Project
-
-In this repository, I document the process I used to transform a generic
-TV Box (Allwinner H3) into a fully functional Linux environment.
-
-The system can run:
-
--   Terminal-only (server mode)
--   Desktop environment (GUI)
-
-This project does not modify the internal NAND memory.\
-If you remove the SD card, the TV Box returns to its original factory
-Android system.
+🇺🇸 Read in English: [README.md](README.md)
 
 ------------------------------------------------------------------------
 
-## Hardware Used
+## Sobre o Projeto
+
+Neste repositório documento como transformei uma TV Box Allwinner H3 em
+um ambiente Linux funcional.
+
+Não altera a NAND interna.\
+Removendo o SD, volta ao sistema original.
+
+------------------------------------------------------------------------
+
+## Hardware
 
 -   CPU: 4× ARM Cortex-A7 @ 1008 MHz\
 -   GPU: Mali-400 MP\
 -   RAM: 1 GiB\
--   Internal Storage: 8 GB NAND
+-   Armazenamento interno: 8 GB NAND
 
 Chipset: Allwinner H3 (sun8iw7p1)
 
-More technical information:\
+Mais informações:\
 https://linux-sunxi.org/H3
 
 ------------------------------------------------------------------------
 
-## SD Card Speed Test
+## Teste de Velocidade do Cartão
 
 ``` bash
 cd yoursdcard/
 dd if=/dev/zero of=teste_escrita bs=1M count=100 conv=fdatasync
 ```
 
-Minimum recommended: **12MB/s**\
-Ideal: **20MB/s real write speed**
+Mínimo recomendado: **12MB/s**
 
 ------------------------------------------------------------------------
 
-## Compatible ISOs
+## ISOs Compatíveis
 
   | ISO | Kernel | Status |
 |-----|--------|--------|
@@ -58,14 +51,7 @@ Ideal: **20MB/s real write speed**
 | OrangePi_pc_debian_stretch_desktop_linux3.4.113_v1.0.tar.gz | 3.4.113 | Legacy |
 
 
-### Recommended Version
-
-**Orangepipc_2.0.8_debian_buster (Kernel 5.4.65)**
-
-------------------------------------------------------------------------
-
-## Image Gallery
-
+## Galeria de Imagens
   ------------------------ ------------------------
   ![](images/image1.webp)   ![](images/image2.webp)
   ![](images/image3.webp)   ![](images/image4.webp)
@@ -73,7 +59,7 @@ Ideal: **20MB/s real write speed**
 
 ------------------------------------------------------------------------
 
-## Project Structure
+## Estrutura
 
     Estrutura
     ├── README.md
@@ -85,6 +71,6 @@ Ideal: **20MB/s real write speed**
 
 ------------------------------------------------------------------------
 
-Based on the video:
+Baseado no vídeo:
 
 https://www.youtube.com/watch?v=HaSdFQSUIho
